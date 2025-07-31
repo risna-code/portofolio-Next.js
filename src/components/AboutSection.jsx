@@ -312,50 +312,51 @@ export default function AboutSection() {
   const doubleSkills = useMemo(() => [...skills, ...skills], [skills])
 
   const socialLinks = useMemo(
-    () => [
-      {
-        name: 'GitHub',
-        icon: <FaGithub />,
-        href: 'https://github.com/risnaahmad',
-        color: 'text-[#ffffff]',
-        bg: 'bg-[#0a0e17]/20',
-        hoverShadow: '0 0 25px rgba(0, 255, 255, 0.8)',
-      },
-      {
-        name: 'Instagram',
-        icon: <FaInstagram />,
-        href: 'https://instagram.com/risnaahmad',
-        color: 'text-[#ff2a6d]',
-        bg: 'bg-[#0a0e17]/20',
-        hoverShadow: '0 0 25px rgba(255, 42, 109, 0.8)',
-      },
-      {
-        name: 'TikTok',
-        icon: <FaTiktok />,
-        href: 'https://tiktok.com/@risnaahmad',
-        color: 'text-[#00f0ff]',
-        bg: 'bg-[#0a0e17]/20',
-        hoverShadow: '0 0 25px rgba(0, 240, 255, 0.8)',
-      },
-      {
-        name: 'WhatsApp',
-        icon: <FaWhatsapp />,
-        href: 'https://wa.me/6281234567890',
-        color: 'text-[#25d366]',
-        bg: 'bg-[#0a0e17]/20',
-        hoverShadow: '0 0 25px rgba(37, 211, 102, 0.8)',
-      },
-      {
-        name: 'Gmail',
-        icon: <SiGmail />,
-        href: 'mailto:risnaahmad727@gmail.com',
-        color: 'text-[#ff2a6d]',
-        bg: 'bg-[#0a0e17]/20',
-        hoverShadow: '0 0 25px rgba(255, 42, 109, 0.8)',
-      },
-    ],
-    [],
-  )
+  () => [
+    {
+      name: 'GitHub',
+      icon: <FaGithub />,
+      href: 'https://github.com/risna-code',
+      color: 'text-[#ffffff]',
+      bg: 'bg-[#0a0e17]/20',
+      hoverShadow: '0 0 25px rgba(0, 255, 255, 0.8)',
+    },
+    {
+      name: 'Instagram',
+      icon: <FaInstagram />,
+      href: 'https://www.instagram.com/risna_ahmadd?igsh=MTd3aDZnaTVycW1pdQ==',
+      color: 'text-[#ff2a6d]',
+      bg: 'bg-[#0a0e17]/20',
+      hoverShadow: '0 0 25px rgba(255, 42, 109, 0.8)',
+    },
+    {
+      name: 'TikTok',
+      icon: <FaTiktok />,
+      href: 'https://tiktok.com/@risnaahmad',
+      color: 'text-[#00f0ff]',
+      bg: 'bg-[#0a0e17]/20',
+      hoverShadow: '0 0 25px rgba(0, 240, 255, 0.8)',
+    },
+    {
+      name: 'WhatsApp',
+      icon: <FaWhatsapp />,
+      href: 'https://wa.me/62895391095526',
+      color: 'text-[#25d366]',
+      bg: 'bg-[#0a0e17]/20',
+      hoverShadow: '0 0 25px rgba(37, 211, 102, 0.8)',
+    },
+    {
+      name: 'Gmail',
+      icon: <SiGmail />,
+      href: 'mailto:risnaahmad727@gmail.com?subject=Halo%20Risna&body=Saya%20tertarik%20dengan%20portofolio%20Anda.',
+      color: 'text-[#ff2a6d]',
+      bg: 'bg-[#0a0e17]/20',
+      hoverShadow: '0 0 25px rgba(255, 42, 109, 0.8)',
+    },
+  ],
+  [],
+)
+
 
   const tabs = useMemo(
     () => [
